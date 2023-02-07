@@ -30,4 +30,5 @@ button:hover {
     border: #c8ad7e solid 2px;
     color: #c8ad7e;
     transition: ease-in-out 0.25s;
+    cursor: pointer;
 }
