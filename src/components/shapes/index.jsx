@@ -6,6 +6,7 @@ const Shape = () => {
   const handleChange = () => {
     setChange(!change)
   }
+  
   return (
     <div className='container'>
       <button onClick={handleChange}>Change shape</button>
