@@ -1,20 +1,11 @@
-import Header from './components/Header';
-import Sidebar from './components/Sidebar';
-import Content from './components/Content';
 import "./app.css";
+import Button from "./components/button";
+import Shape from "./components/shapes";
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <div className='body'>
-        <div className='body-left'>
-          <Sidebar />
-        </div>
-        <div className='body-right'>
-          <Content />
-        </div>
-      </div>
+      <Shape />
     </div>
   );
 }
