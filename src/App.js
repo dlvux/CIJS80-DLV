@@ -1,11 +1,10 @@
 import "./app.css";
-import Button from "./components/button";
-import Shape from "./components/shapes";
+import Text from "./components/Text";
 
 function App() {
   return (
     <div className="App">
-      <Shape />
+      <Text />
     </div>
   );
 }
